@@ -13,6 +13,7 @@ class MusicLibraryController
       puts "To list all of the genres in your library, enter 'list genres'."
       puts "To list all of the songs by a particular artist, enter 'list artist'."
       puts "To list all of the songs of a particular genre, enter 'list genre'."
+      puts "To play a song, enter 'play song'."
 
       input = gets.strip
 
@@ -27,6 +28,8 @@ class MusicLibraryController
         list_songs_by_artist
       when 'list genre'
         list_songs_by_genre
+      when 'play song'
+        play_song
       end
     end
   end
