@@ -16,5 +16,7 @@ class MusicLibraryController
       when 'list songs'
         list_songs
       when
+      end
+    end
   end
 end
